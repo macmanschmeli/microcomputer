@@ -14,6 +14,8 @@
     static const int ROW5=5;
     static const int ROW6=6;
 
+    //takes a variable amount of arguments which should each be one of
+    //the following: LED1, LED2, LED3, LED4, LED5, LED6
     int activateLED(int arguments,...);
     void toggleRow(int row);
 
