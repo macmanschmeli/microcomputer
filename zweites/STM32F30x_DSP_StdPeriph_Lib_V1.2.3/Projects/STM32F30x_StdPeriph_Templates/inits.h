@@ -5,4 +5,5 @@ void startUARTWithIRQ(void);
 void startSPIWithIRQ(void);
 void enableTimer2Sec2(void);
 void startADC(void);
+void startExti(void);
 #endif //INITS_H

@@ -20,6 +20,7 @@ int main(void)
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
     startUARTWithIRQ();
     startSPIWithIRQ();
+    startExti();
     // adc aktivieren und dafür brauchen wir Timer 2 also
     //RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE );
     //enableTimer2Sec2();

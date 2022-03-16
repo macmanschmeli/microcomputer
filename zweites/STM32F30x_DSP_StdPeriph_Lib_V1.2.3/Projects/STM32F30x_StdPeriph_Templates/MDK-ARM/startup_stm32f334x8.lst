@@ -578,18 +578,19 @@ ARM Macro Assembler    Page 9
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
 interwork --depend=stm32f334x8\startup_stm32f334x8.d -ostm32f334x8\startup_stm3
-2f334x8.o -I.\RTE\_STM32F334x8 -IC:\Users\schme\AppData\Local\Arm\Packs\ARM\CMS
-IS\5.8.0\CMSIS\Core\Include -IC:\Users\schme\AppData\Local\Arm\Packs\Keil\STM32
-F3xx_DFP\1.4.0\Device\Include --predefine="__EVAL SETA 1" --predefine="__MICROL
-IB SETA 1" --predefine="__UVISION_VERSION SETA 533" --predefine="_RTE_ SETA 1" 
---predefine="STM32F334x8 SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm3
+2f334x8.o -I.\RTE\_STM32F334x8 -I"C:\Users\Michael Rathmayr\AppData\Local\Arm\P
+acks\ARM\CMSIS\5.8.0\CMSIS\Core\Include" -I"C:\Users\Michael Rathmayr\AppData\L
+ocal\Arm\Packs\Keil\STM32F3xx_DFP\1.4.0\Device\Include" --predefine="__EVAL SET
+A 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 533" -
+-predefine="_RTE_ SETA 1" --predefine="STM32F334x8 SETA 1" --predefine="_RTE_ S
 
 
 
 ARM Macro Assembler    Page 10 
 
 
-2f334x8.lst RTE\Device\STM32F334K8\startup_stm32f334x8.s
+ETA 1" --list=startup_stm32f334x8.lst RTE\Device\STM32F334K8\startup_stm32f334x
+8.s
 
 
 
